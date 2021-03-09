@@ -1,0 +1,32 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+/* Styles Header */
+.whb-top-bar {
+	background-color: rgb(241 95 126 / 89%);
+}
+.whb-color-dark:not(.whb-with-bg) {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+}
+
+/* Styles header dashboard */
+.dokan-settings-content .dokan-settings-area .dokan-dashboard-header h1 {
+    font-size: 18px !important;
+}
+
+/* Styles Footer */
+@media (min-width: 768px) {
+	.footer-column {
+		margin-bottom: 5px;
+	}
+	.footer-column.footer-column-2 {
+		padding-left: 3rem;
+	}
+}

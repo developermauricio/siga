@@ -1,0 +1,12 @@
+2021-02-19T00:18:12+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /home/forge/test-mauro.site/wp-content/plugins/Plugin_ePayco_WooCommerce_3.4.0/woocommerce-gateway-payco.php:682
+Stack trace:
+#0 /home/forge/test-mauro.site/wp-includes/class-wp-hook.php(287): WC_ePayco->ePayco_successful_request()
+#1 /home/forge/test-mauro.site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/forge/test-mauro.site/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/forge/test-mauro.site/wp-content/plugins/Plugin_ePayco_WooCommerce_3.4.0/woocommerce-gateway-payco.php(589): do_action()
+#4 /home/forge/test-mauro.site/wp-includes/class-wp-hook.php(287): WC_ePayco->check_ePayco_response()
+#5 /home/forge/test-mauro.site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#6 /home/forge/test-mauro.site/wp-includes/plugin.php(484): WP_Hook->do_action()
+#7 /home/forge/test-mauro.site/wp-content/plugins/woocommerce/includes/class-wc-api.php(161): do_action()
+#8 /home/forge/test-mauro.site/wp-inclu en /home/forge/test-mauro.site/wp-content/plugins/Plugin_ePayco_WooCommerce_3.4.0/woocommerce-gateway-payco.php en la línea 682
+
